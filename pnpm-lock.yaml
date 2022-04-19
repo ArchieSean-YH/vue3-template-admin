@@ -9,6 +9,7 @@ specifiers:
   '@vue/cli-plugin-vuex': ~5.0.0
   '@vue/cli-service': ~5.0.0
   '@vue/eslint-config-standard': ^6.1.0
+  axios: ^0.26.1
   core-js: ^3.8.3
   eslint: ^7.32.0
   eslint-plugin-import: ^2.25.3
@@ -22,6 +23,7 @@ specifiers:
   vuex: ^4.0.0
 
 dependencies:
+  axios: 0.26.1
   core-js: 3.22.0
   vue: 3.2.33
   vue-router: 4.0.14_vue@3.2.33
@@ -2335,6 +2337,14 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
+  /axios/0.26.1:
+    resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
+    dependencies:
+      follow-redirects: 1.14.9_debug@4.3.4
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
   /babel-loader/8.2.4_acba72ea4bf9d339cdfcd8f55cdb7006:
     resolution: {integrity: sha512-8dytA3gcvPPPv4Grjhnt8b5IIiTcq/zeXOPk4iTYI0SVXcsmuGg7JtBRDp8S9X+gJfhQ8ektjXZlDu1Bb33U8A==}
     engines: {node: '>= 8.9'}
@@ -3806,7 +3816,6 @@ packages:
         optional: true
     dependencies:
       debug: 4.3.4
-    dev: true
 
   /forwarded/0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
